@@ -18,23 +18,30 @@ Chaque stories sera accompagnée d’un/des scénario(s) et d’un ou plusieurs 
 
 Ensuite, nous ferons les tests d'acceptance qui permettent aux développeurs de vérifier si la story est bien réalisée et correspond aux résultats attendus.  
 
-
-
-
-- US_000: Ajouter des objets
-En tant que habitant du manoir
+#### US_000: Ajouter des objets
+En tant qu' habitant du manoir
 Je veux ajouter des objets dans une pièce
 Afin de la remplir et de pouvoir vérifier le nombre total d’objet
 
-Test d’acceptance: 
+- Test d’acceptance: 
 Assurer que le nombre d'objets total à la fin d’ajouter correspondait au résultat attendu. 
  
 
 
-- US_001: Ouverture et fermeture de la fenêtre
-En tant que développeur
-Je veux
-Afin de
+#### US_001: Ouverture et fermeture de la fenêtre
+En tant que habitant du manoir
+Je veux pouvoir ouvrir ou fermer un fenêtre d’une pièce
+Afin de m'aérer
+
+- Test d’acceptance: 
+Assurer que les méthodes OuvrirFenetre() et fermer fenêtres renvoient les bonnes valeurs. 
 
 
-- US_001: Ajouter du décor à une pièce
+#### US_002: Ajouter du décor à une pièce
+En tant qu' habitant du manoir
+Je veux pouvoir ajouter une décoration à une fenetre
+Afin de la décorer et de pouvoir vérifier le nombre total d’objets de la pièce
+
+- Test d’acceptance: 
+À l'aide de scénarios nous allons s’assurer que la méthode ajoutDecor(int val) ajoute le nombre de decore ajoutés au nombre total des objets de la pièce.   
+
